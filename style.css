@@ -1,0 +1,258 @@
+/*-------------------- font-awesome ------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@500&display=swap');
+
+/*----- ----------------body styles------------------------- */
+body {
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: #bcb7d9;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*------------ -------main part styles----------- -----------*/
+
+.container {
+    width: 1302px;
+    margin: 50px auto;
+
+}
+
+.first-container {
+    width: 1300px;
+
+}
+
+.main-division {
+    background-color: #6a6b83;
+    display: flex;
+    padding-left: 50px;
+    border-radius: 10px;
+}
+
+/*----- ------------greatest styles ------------------*/
+.greatest {
+    color: white;
+    width: 50%px;
+}
+
+.greatest h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.greatest p {
+    font-size: 18px;
+}
+
+.greatest a {
+    text-decoration: none;
+    background-color: hotpink;
+    padding: 12px 38px;
+    border-radius: 40px;
+    color: whitesmoke;
+}
+
+.greatest a:hover {
+    background-color: chartreuse;
+    color: black;
+    transition: all 2s ease-in-out;
+}
+
+.fa-solid {
+    margin-left: 10px;
+}
+
+/*--------------------- player-image styles---------------- */
+.player-image img {
+    width: 400px;
+    margin-left: 220px;
+    position: relative;
+    bottom: -6px;
+    left: -42px;
+}
+
+
+/*------ -----link-box and player-box styles ---------------*/
+.container-info {
+    display: flex;
+    margin: 37px 0px;
+}
+
+.link-box {
+    background-color: #9f86c0;
+    width: 405px;
+    padding: 17px;
+    border-radius: 10px;
+    height: 185px;
+    margin: 12px 46px;
+    position: relative;
+    left: -44px;
+}
+
+.link-box a {
+    text-decoration: none;
+    display: block;
+    background-color: #ddd;
+    color: black;
+    padding: 7px 20px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.button {
+    background-color: #0a9396 !important;
+    color: white !important;
+}
+
+.right-1 {
+    display: flex;
+}
+
+.right-2 {
+    display: flex;
+}
+
+.right-3 {
+    display: flex;
+}
+
+.player-run {
+    margin: 12px 10px;
+}
+
+.players {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+.players button {
+    padding: 2px 13px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: copy;
+    background-color: #d8e2dc;
+}
+
+.player-run p,
+.clock-color {
+    margin-left: 8px;
+}
+
+.player-run button:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.player-run img {
+    width: 387px;
+}
+
+.clock-color {
+    color: rgb(62, 60, 60);
+    font-size: 14px;
+}
+
+
+.FIFACUP {
+    width: 302px !important;
+}
+
+/*------------------------ footer-styles----------------------- */
+.third-container {
+    background-color: #2f4858;
+    height: 320px;
+    margin-top: 100px;
+
+}
+
+.third-container h2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+hr {
+    width: 900px;
+    text-align: center;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    background-color: aqua;
+    padding: 5px 10px;
+    border-radius: 40px;
+    color: black;
+}
+
+/* -------------------------social styles----------------------- */
+.social {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.fa-youtube,
+.fa-twitter,
+.fa-instagram,
+.fa-linkedin {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.fa-youtube:hover {
+    color: #98c1d9;
+}
+
+.fa-twitter:hover {
+    color: #98c1d9;
+}
+
+.fa-instagram:hover {
+    color: #98c1d9;
+}
+
+.fa-linkedin:hover {
+    color: #98c1d9;
+}
+
+/* -------------------matches styles------------------ */
+.flag img {
+    width: 110px;
+}
+
+.twoflags {
+    width: 250px;
+    padding: 10px;
+}
+
+.para h3,
+p {
+
+    text-align: center;
+}
+
+/*----------------------- media queries--------------- */
+
+/* ----------------------Smart phone------------------- */
+/* @media screen and (max-width:767px) {} */
+
+/*------------------------- Tablet---------------------- */
+@media screen and (min-width:768px) and (max-width:1023px) {}
